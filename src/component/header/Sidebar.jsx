@@ -42,7 +42,7 @@ const Sidebar = () => {
                     </Link>
                 </div>
                 <Link className='flex items-center gap-2 text-sm'>
-                   <Plus className="w-4 h-4 cursor-pointer" />
+                   <Plus className="w-4 h-4 cursor-pointer" onClick={() => setShowModal(true)} />
                     <span>Create space</span>
                 </Link>
             </div>
